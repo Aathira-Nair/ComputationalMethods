@@ -27,7 +27,7 @@ implicit none
        sumy_sqrt =0
 
        !Getting x variables for correlation
-      open(unit = 9, file = "a.dat", status = "old",IOSTAT = s)
+      open(unit = 9, file = "KP_cor1.dat", status = "old",IOSTAT = s)
 
        do 
        read(9,*,IOSTAT = s) tempx
@@ -42,7 +42,7 @@ implicit none
        end do 
 
        !Getting y variables for correlation
-       open(unit = 7, file = "b.dat", status = "old",IOSTAT = s)
+       open(unit = 7, file = "KP_cor2.dat", status = "old",IOSTAT = s)
 
        do 
        read(7,*,IOSTAT = s) tempy
