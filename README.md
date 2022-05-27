@@ -6,7 +6,7 @@ This repository contains Fortran codes for the following methods-
 2) Gauss Elimination method
 3) Gauss inversion method
 4) Gauss Siedel method
-5) Calculating eigenvalue of a nxn matrix
+5) Calculating eigenvalue of a 3x3 matrix
 6) Pivotal condensation method
 7) finding the root of a polynomial
 8) Trapezoidal rule for integration
