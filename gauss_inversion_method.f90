@@ -6,7 +6,7 @@ program gauss_inversion
       real*8               :: ratio
       
       !Read the matrix from input file and the identity matrix
-      open(unit = 2, file = "new.dat", status = "old")
+      open(unit = 2, file = "gauss_inversion.dat", status = "old")
      
       do i = 1,3
       do j = 1,3
