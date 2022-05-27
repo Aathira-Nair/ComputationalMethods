@@ -11,4 +11,4 @@ This repository contains Fortran codes for the following methods-
 7) finding the root of a polynomial
 8) Trapezoidal rule for integration
 9) Simpson's rule for integration
-10) calculating first and second order differentiation
+10) Finite difference method for first and second order differentiation
