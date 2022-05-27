@@ -18,7 +18,7 @@ program gauss_siedel
 
       allocate(a(n,n+1),x(n),y(p),z(n),q(n),r(n))
 
-      open(unit= 2, file = "new3.dat", status = "old")
+      open(unit= 2, file = "gauss_siedel.dat", status = "old")
        open(unit = 3, file = "out.txt", status = "new")
       
       write(*,*)"The matrix form of the equations is:"
