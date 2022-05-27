@@ -12,7 +12,7 @@ program gauss_elimination
       read(*,*)n
       
       allocate(a(n,n+1),x(n))
-      open(unit=3, file = "new2.dat", status = "old")
+      open(unit=3, file = "gauss_elimination.dat", status = "old")
       
       !Write the coefficients in matrix form
       do i = 1,n
