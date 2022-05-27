@@ -15,7 +15,7 @@ program pivotal_condense_method
       allocate(mat(m,m),ratio(m,m))
 
       !Getting values from input file
-      open(unit = 1, file = "input.dat", status = "old")
+      open(unit = 1, file = "piv_condense.dat", status = "old")
       read(1,*) mat
   
       !creating an upper triangular matrix
